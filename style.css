@@ -25,18 +25,23 @@ a {
     margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .button {
   background-color: #000000;
   color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   max-width: 161px;
   width: 100%;
-  text-align: center;
-  padding: 9px;
+  padding: 9px 22px;
   border: none;
 }
+
+/*Header*/
 
 header {
     padding: 50px 110px 0 113px;
@@ -55,11 +60,11 @@ header {
 
 .header-item {
     margin-right: 20px;
-    font-family: Open sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #1E0606;
-    font-weight: bold;
 }
 
 .logo {
@@ -67,12 +72,43 @@ header {
 }
 
  .header-loop {
-   margin-right: 24.45px;
+   margin-right: 24px;
  }
 
 .header-link {
-  font-family: Open sans-serif;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   font-size: 14px;
   line-height: 19px;
+}
+
+/*Banner*/
+
+.banner-base {
+  background-color: rgba(238, 228, 219, 1);
+  display: block;
+  height: 372px;
+  margin-top: 129px;
+}
+
+.number_menu {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-top: 17px;
+  padding-left: 28px;
+  font-size: 60px;
+  color: rgba(30, 6, 6, 0.05);
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  padding-left: 133px;
+  align-items: center;
+}
+
+.picture_right {
+  float:right
 }
